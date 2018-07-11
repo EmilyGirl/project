@@ -1,0 +1,25 @@
+.user_agreement {
+	box-sizing: border-box;
+	width: 100%;
+	line-height: 3rem;
+	padding: 3rem 2rem 0 2rem;
+	font-size: 1.2rem;
+	h2 {
+		font-weight: bold;
+		margin-bottom: 2rem;
+		text-align:center;
+	}
+	.introduce {
+		text-align: left;
+		text-indent: 2em;
+	}
+	.circle {
+		margin-bottom: 2rem;
+	}
+	.circle li {
+		list-style-position: inside!important;
+		list-style: decimal;
+		text-align: left;
+		margin-top: 1rem;
+	}
+}

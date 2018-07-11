@@ -1,0 +1,176 @@
+/*注册*/
+	
+.input-list {
+    background: #fff;
+    margin-top: 1.1rem;
+}
+.icommon1 {
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    margin-left: 2.5rem;
+}
+.icommon1 label {
+    font-size: 1.5rem;
+    display: inline-block;
+    /* width: 6rem; */
+    -webkit-user-select: none;
+    vertical-align: middle;
+    margin-right: 1.6rem;
+}
+.icommon {
+    border-bottom: 1px solid #e5e5e5;
+    margin-left: 2.5rem;
+}
+
+.icommon:last-child {
+    border: 0;
+}
+
+.icommon label {
+    font-size: 1.5rem;
+    display: inline-block;
+    width: 6rem;
+    -webkit-user-select: none;
+    vertical-align: middle;
+    margin-right: 1.6rem;
+}
+
+.icommon .hide,
+.icommon .show {
+    margin: 0 0 0 6.5rem;
+}
+
+.icommon .show {
+    margin-left: 3.5rem;
+}
+
+.icommon input {
+    font-size: 1.4rem;
+    padding: 1.5rem 0;
+    width: 17rem;
+}
+
+.icommon .password {
+    width: 17rem;
+}
+
+.fr {
+    float: inherit;
+    font-size: 1.4rem;
+    vertical-align: middle;
+    color: #2772FF;
+}
+
+.getMa {
+    width: 7.6rem;
+    height: 2.5rem;
+    border-radius: 2.5rem;
+    border: 0;
+    outline: none;
+    color: #2772FF;
+    font-size: 1.5rem;
+    background: #fff;
+    vertical-align: middle;
+    margin-left: 0.6rem;
+}
+
+.normal{
+    color: #999999;
+    margin: .9rem 0 0 2.5rem;
+    font-size: 1.2rem;
+}
+
+.tips{
+    color:red;
+}
+
+.boolBtn{
+    width: 100%;
+    height: 4.5rem;
+    display: block;
+    font-size: 1.6rem;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    color: #999;
+}
+
+.registerBtn,
+.loginBtn {
+    width: 92%;
+    height: 4.5rem;
+    display: block;
+    margin: 2rem auto 1.5rem;
+    border-radius: 0.4rem;
+    font-size: 1.6rem;
+    color: #fff;
+    background: #2772FF;
+}
+
+.registerBtn:active,
+.loginBtn:active {
+    width: 92%;
+    height: 4.5rem;
+    display: block;
+    margin: 2rem auto 1.5rem;
+    border-radius: 0.4rem;
+    font-size: 1.6rem;
+    color: #fff;
+    background: #555555;
+}
+
+.loginBtn {
+    opacity: 1;
+}
+
+.ser-res {
+    text-align: center;
+    font-size: 1.2rem;
+    color: #ccc;
+}
+
+.ser-res a {
+    color: #629DFC;
+}
+
+.login-bottom {
+    width: 92%;
+    margin: 0 auto;
+}
+
+.login-bottom p {
+    color: #FB5C04;
+    font-size: 1.2rem;
+}
+/*渐变*/
+
+.welfare-close {
+    height: 4rem;
+    background: rgba(0, 0, 0, 0.6);
+    font-size: 1.5rem;
+    color: #fff;
+    text-align: center;
+    line-height: 4rem;
+    border-radius: 2rem;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    padding: 0 1rem;
+}
+
+.fade-enter-active,
+.fade-leave-active {
+    transition: opacity .3s;
+}
+
+.fade-enter,
+.fade-leave-to
+/* .fade-leave-active in below version 2.1.8 */
+
+{
+    opacity: 0
+}

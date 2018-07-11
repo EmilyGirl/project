@@ -1,0 +1,189 @@
+.product {
+    .noData{
+        text-align: center;
+        font-size: 1.5rem;
+        line-height: 6rem;
+        img{
+            margin-top: 40%;
+            width: 100%;
+        }
+    }
+	.product-lists li{
+		padding: 1.3rem 2.7rem 1.5rem 2.4rem;
+		background: #fff;
+		margin-top: 1rem;
+	}
+	.product-lists li:first-child {
+		margin: 0;
+	}
+	.product-content{
+		position: relative;
+		min-height:10rem;
+	}
+	.product-date,
+	.product-name {
+		display: inline-block;
+		min-height: 2.5rem;
+	}
+	.product-name {
+		font-size: 1.6rem;
+		color: #333;
+		line-height: 2.5rem;
+		width: 100%;
+		white-space: nowrap;
+		overflow: hidden;
+		text-overflow: ellipsis;
+	}
+	.product-date {
+		position: absolute;
+		top: 4.2rem;
+		left:14rem;
+		font-size: 2.6rem;
+		color: #555555;
+		text-align: center;
+		line-height: 1.5rem;
+		border-radius: 1.5rem;
+		// margin-left: 2rem;
+		span{
+			color:#333333;
+			margin-left: .5rem;
+			font-size: 1.4rem;
+		}
+	}
+	
+	.middleLeft span {
+		font-size: 2.6rem;
+		color: #FE640E;
+		line-height: 4.5rem;
+	}
+	.middleLeft span span {
+		font-size: 1.6rem;
+	}
+	.middleLeft span var {
+		font-size: 1.8rem;
+	}
+	.middleLeft span var span {
+		font-size: 1.2rem;
+	}
+	.middleLeft p {
+		font-size: 1.1rem;
+		color: #666;
+		// line-height: 1.5rem;
+	}
+	.middleRight,
+	.noMoney {
+		padding: .55rem 1.4rem;
+		background: #2772FF;
+		border-radius: 0.4rem;
+		color: #fff;
+		font-size: 1.2rem;
+		margin-top: 2rem;
+	}
+	.noMoney {
+		background: #DBDBDB;
+	}
+	.bottomLeft{
+		margin-top: .8rem;
+	}
+	.bottomRight{
+		position: absolute;
+		top: 7.7rem;
+		left:14rem;
+	}
+	.schedule {
+		font-size: 1.1rem;
+		color: #555;
+		line-height: 1.3rem;
+		white-space: nowrap;
+	}
+	.schedule span {
+		display: inline-block;
+		height: .2rem;
+		width: 28rem;
+		background: #eaebef;
+		vertical-align: middle;
+		margin-right: 1.2rem;
+	}
+	.schedule span var {
+		display: inline-block;
+		background: #2772FF;
+		height: .2rem;
+		vertical-align: text-top;
+	}
+	/*home*/
+	.tab {
+		width: 100%;
+		padding: 1.03rem 0 0.78rem 0;
+		background: #fff;
+		position: absolute;
+		font-size: 1.2rem;
+		z-index: 1000;
+		bottom: 0;
+		border-top: .1rem solid #E1E1E1;
+	}
+	.tab li {
+		width: 50%;
+		float: left;
+		font-size: .9em;
+		text-align: center;
+	}
+	.tab li a {
+		color: #999;
+	}
+	.tab li.cur a {
+		color: #333;
+	}
+	.tab .active.nav-item:nth-child(1) span {
+		width: 1.845rem;
+		height: 1.74rem;
+		display: block;
+		background: url(../../img/wechat/shouye/cmoney.png) no-repeat;
+		background-size: 100% 100%;
+		margin: 0 auto .375rem auto;
+	}
+	.tab .nav-item:nth-child(1) span {
+		width: 1.845rem;
+		height: 1.74rem;
+		display: block;
+		background: url(../../img/wechat/shouye/kmoney.png) no-repeat;
+		background-size: 100% 100%;
+		margin: 0 auto .375rem auto;
+	}
+	.tab .active.nav-item:nth-child(2) span {
+		width: 1.845rem;
+		height: 1.74rem;
+		display: block;
+		background: url(../../img/wechat/shouye/cmine.png) no-repeat;
+		background-size: 100% 100%;
+		margin: 0 auto .375rem auto;
+	}
+	.tab .nav-item:nth-child(2) span {
+		width: 1.845rem;
+		height: 1.74rem;
+		display: block;
+		background: url(../../img/wechat/shouye/mine.png)/* -50px -5px / 200px 100px*/
+		no-repeat;
+		background-size: 100% 100%;
+		margin: 0 auto .375rem auto;
+	}
+	/*.nav-item*/
+	.tab .active a {
+		color: #2772FF;
+	}
+	/*.tab .active a span {
+    background-position-y: -55px;
+}*/
+	.wapper {
+		width: 100%;
+		height: 100%;
+		background: #eaeaea;
+		position: absolute;
+	}
+	.clearfix::after {
+		content: "";
+		display: block;
+		height: 0;
+		clear: both;
+		visibility: hidden
+	}
+}

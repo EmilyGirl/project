@@ -1,0 +1,94 @@
+.homeTabs .homeTabs{
+	width: 100%;
+    height: 100vh;
+    background: #eaeaea;
+    position: relative;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+.homeTabs .tab {
+	width: 100%;
+    padding: 1.03rem 0 0.78rem 0;
+    background: #fff;
+    position: absolute;
+    font-size: 1.2rem;
+    z-index: 1000;
+    bottom: 0;
+    border-top: .1rem solid #E1E1E1;
+}
+
+.homeTabs .tab li {
+    width: 50%;
+    float: left;
+    font-size: .9em;
+    text-align: center;
+}
+
+.homeTabs .tab li a {
+    color: #999;
+}
+
+.homeTabs .tab li.cur a {
+    color: #333;
+}
+
+.homeTabs .tab .active.nav-item:nth-child(1) span {
+    width: 1.845rem;
+    height: 1.74rem;
+    display: block;
+    background: url(../../img/wechat/shouye/cmoney.png) no-repeat;
+    background-size: 100% 100%;
+    margin: 0 auto .375rem auto;
+}
+.homeTabs .tab .nav-item:nth-child(1) span {
+    width: 1.845rem;
+    height: 1.74rem;
+    display: block;
+    background: url(../../img/wechat/shouye/kmoney.png) no-repeat;
+    background-size: 100% 100%;
+    margin: 0 auto .375rem auto;
+}
+
+.homeTabs .tab .active.nav-item:nth-child(2) span {
+    width: 1.845rem;
+    height: 1.74rem;
+    display: block;
+    background: url(../../img/wechat/shouye/cmine.png) no-repeat;
+    background-size: 100% 100%;
+    margin: 0 auto .375rem auto;
+}
+
+.homeTabs .tab .nav-item:nth-child(2) span {
+    width: 1.845rem;
+    height: 1.74rem;
+    display: block;
+    background: url(../../img/wechat/shouye/mine.png)/* -50px -5px / 200px 100px*/ no-repeat;
+    background-size: 100% 100%;
+    margin: 0 auto .375rem auto;
+}
+
+/*.nav-item*/
+
+
+.homeTabs .tab .active a {
+    color: #2772FF;
+}
+
+/*.tab .active a span {
+    background-position-y: -55px;
+}*/
+
+.homeTabs .wapper {
+    width: 100%;
+    height: 100%;
+    background: #eaeaea;
+    position: absolute;
+}
+.homeTabs .clearfix::after {
+    content: "";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden
+}

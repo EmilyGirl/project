@@ -1,0 +1,214 @@
+.invite{
+    width: 100%;
+    position: relative;
+}
+.header{
+    width: 37.5rem;
+    height: 40.7rem;
+    position: relative;
+    left: 0;
+    top: 0
+}
+.header1{
+    width: 37.5rem;
+    height: 97.2rem;
+    position: relative;
+}
+.reward{
+  width: 37.2rem;
+  height:11.9rem;
+  position: absolute;
+  left: 0;
+  top: 40rem;
+}
+.reward1{
+    width: 34.5rem;
+    height: 10.6rem;
+    position:absolute;
+    left: 1rem;
+    top: 42rem;
+}
+.reward_left{
+    width: 17rem;
+    height: 5rem;
+    position: absolute;
+    left: 0;
+    top:1rem;
+    text-align: center;
+}
+.reward_text{
+    color: #E96AFF;
+    font-size: 1.8rem;
+}
+.reward_doc{
+    color: #000000;
+    font-size: 1.2rem;
+    margin-top: 1.7rem;
+}
+.reward_right{
+    width: 17rem;
+    height: 5rem;
+    position: absolute;
+    right: 0;
+    top:1rem;
+    text-align: center;
+}
+.line{
+    width: 0.2rem;
+    height: 4.2rem;
+    background: #dedede;
+    position: absolute;
+    top: 1rem;
+    left: 18rem;
+}
+.total{
+    font-size: 1.1rem;
+    color: #E96AFF;
+    position: absolute;
+    left: 14rem;
+    top: 7rem;
+}
+.reward2{
+    width: 34.5rem;
+    height: 20rem;
+    background: #ffffff;
+    position: absolute;
+    left: 1.2rem;
+    top: 55rem;
+    border-radius: 0.5rem;
+    text-align: center
+}
+.lift_title{
+    width: 13rem;
+    height: 3rem;
+    background: 
+    #E96AFF;
+    border-radius: 1.5rem;
+    text-align: center;
+    line-height: 3rem;
+    color: #ffffff;
+    position: absolute;
+    left: 11rem;
+    top: -1.8rem;
+    font-size: 1.4rem;
+}
+.lift_text{
+    font-size: 1.2rem;
+    color: #000000;
+    position: absolute;
+    left: 2.5rem;
+    top: 2rem;
+    line-height: 2.5rem;
+}
+.reward11{
+    width: 34.5rem;
+    height: 10.6rem;
+    position:absolute;
+    left: 0rem;
+    top:8rem;
+}
+.reward_img{
+    width: 8.2rem;
+    height: 2.7rem;
+}
+.liji{
+    width: 29.9rem;
+    height: 3rem;
+    position: absolute;
+    left: 2rem;
+    top: 8rem;
+    border-radius: 1.2rem;
+    text-align: center;
+    line-height: 3rem;
+    background: #E96AFF;
+    color: #ffffff;
+    font-size: 1.2rem;
+}
+.reward3{
+    width: 34.5rem;
+    height: 28.1rem;
+    background: #ffffff;
+    position: absolute;
+    left: 1.2rem;
+    top: 78rem;
+    border-radius: 0.5rem;
+    text-align: center
+}
+.renwu{
+    width: 32.8rem;
+    height: 14.7rem;
+    position: absolute;
+    left: 1rem;
+    top:0rem;
+}
+.liji1{
+    width: 29.9rem;
+    height: 3rem;
+    position: absolute;
+    left: 2rem;
+    top: 16rem;
+    border-radius: 1.2rem;
+    text-align: center;
+    line-height: 3rem;
+    background: #E96AFF;
+    color: #ffffff;
+    font-size: 1.2rem;
+}
+.reward22{
+    width: 34.5rem;
+    height: 10.6rem;
+    position:absolute;
+    left: 0rem;
+    top:8rem;
+}
+.reward4{
+    width: 34.5rem;
+    height: 16.8rem;
+    background: #ffffff;
+    position: absolute;
+    left: 1.2rem;
+    top: 109rem;
+    border-radius: 0.5rem;
+    text-align: center
+}
+.reward44{
+    width: 34.5rem;
+    height: 16.8rem;
+    position:absolute;
+    left: 0rem;
+    top:2rem;
+}
+.reward_img1{
+    width: 13.9rem;
+    height: 7.6rem;
+}
+.reward_doc1{
+    color: #000000;
+    font-size: 1.2rem;
+    margin-top: 1.2rem;
+    line-height: 2rem;
+}
+.reward5{
+    position: absolute;
+    left: 4.5rem;
+    top: 127rem;
+    text-align: center;
+    font-size: 1.1rem;
+    color: #ffffff;
+    line-height: 2.2rem;
+    z-index: 111;
+    letter-spacing:0.3rem;
+}
+.reward6{
+    width: 37.5rem;
+    height: 4.9rem;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    z-index: 111;
+    background: #E96AFF;
+    text-align: center;
+    line-height: 4.9rem;
+    color: #ffffff;
+    font-size: 1.4rem;
+}

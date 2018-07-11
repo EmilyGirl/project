@@ -1,0 +1,37 @@
+.active_register { width: 100%; }
+.active_register .down-app { width: 100%;height: 5rem;background: #fff;display: flex;align-items: center;justify-content:space-between;padding: 0 1.2rem;position: fixed;top: 0;left: 0;box-sizing: border-box;box-shadow:4px 0px 4px rgba(71,33,123,0.26) }
+.active_register .down-app img { width: 3.4rem;height: 3.4rem; }
+.active_register .down-app span { font-size: 1.6rem;color: #1C1C20;flex: 1;padding-left: 1rem; }
+.active_register .down-btn { width: 9rem;height: 2.4rem;text-align: center;line-height: 2.4rem;border: 1px solid #2772FF;font-size: 1.2rem;color: #2772FF;border-radius: 2.4rem; }
+.active_register .app_share-1,.app_share-2,.app_share-3 { width: 100%;margin-top: -1px;text-align: center; }
+.active_register .app_share-1 { background: url(../../img/app/bg-1.png) 0 0 no-repeat;height: 28.4rem;background-size: 100% 100%; }
+.active_register .app_share-2 { background: url(../../img/app/bg-2.png) 0 0 no-repeat;height: 31.9rem;background-size: 100% 100%; }
+.active_register .app_share-3 { background: url(../../img/app/bg-3.png) 0 0 no-repeat;height: 55.4rem;background-size: 100% 100%; }
+.active_register .app-title { width: 77%;margin: 5rem 0 1.8rem; }
+.active_register .app-new { width: 83%; }
+.active_register .laixi { width: 66.7%;margin: 1rem 0 1.2rem; }
+.active_register .invita { font-size: 1.2rem;width: 29rem;height: 2.7rem;margin: 0 auto 1.5rem;text-align: center;line-height: 2.7rem;background:rgba(85,55,242,1);border-radius: 2.7rem;color: #fff; }
+.active_register .invita span { color: #FFF43D; }
+.active_register .img-common { width: 1.4rem;height: 1.4rem; }
+.active_register .eye { width: 1.7rem;height: 1.7rem;background: url(../../img/app/icon_openeye.png) 0 0 no-repeat;background-size: 100% 100%; }
+.active_register .changeEye { background: url(../../img/app/icon_closeeye.png) 0 0 no-repeat;background-size: 100% 100%; }
+.active_register .invita-input { width: 80%;background: #fff;margin: 0 auto;border-radius: 1rem; }
+.active_register .invita-input ul { padding: 0 1.3rem; }
+.active_register .invita-input ul li { display: flex;padding: 1.6rem 0;align-items: center;justify-content:space-between;border-bottom: 1px solid #E0E0E0;box-sizing: border-box; }
+.active_register .invita-input ul li button { color: #4A82FF;font-size: 1.3rem;background: none;flex: auto;text-align: right;}
+.active_register .invita-input ul li input { margin-left: 1.2rem;font-size: 1.4rem;flex: auto; }
+.active_register .invita-input ul li .duanyan { width: 7.5rem; }
+.active_register .register_btn { width: 80%;height: 4.4rem;line-height: 4.4rem;text-align: center;margin: 1.3rem auto 1rem;font-size: 1.6rem;color: #fff;border-radius: 2.2rem;background: linear-gradient(#FFC028,#FF8202); }
+.active_register .mt { margin-top: 2.4rem; }
+.active_register .agree { display: flex;justify-content: center;align-items: center; }
+.active_register .agree img { width: 1rem;height: 1rem;margin-right: 0.6rem; }
+.active_register .agree span { font-size: 1rem;color: #fff;opacity: 0.4; }
+.active_register .gaunzhu { width: 68.5%;margin: 2rem 0 5.2rem; }
+.active_register .qrcode-title { font-size: 1.4rem;color: #FFF139;margin-bottom: 0.8rem; }
+.active_register .qrcode { width: 37.3%; }
+.active_register .gongz { width: 11.2rem;height: 3.3rem;text-align: center;line-height: 3.3rem;margin: 0.8rem auto;background: rgba(109,0,209,1);border-radius: 3.3rem;display: flex;align-items: center;justify-content: center; }
+.active_register .gongz input { color: #FFF839;font-size: 1.2rem;display: inline-block;border-bottom: 4px solid #FFF839;background: none;width: 5.1rem;height: 1.8rem;text-align: center; }
+.active_register .fuzhi { width: 56%; }
+.active_register .safy { width: 100%;margin-top: 4.2rem; }
+.active_register .app-bottom { height: 4rem;line-height: 4rem;color: #BD94F8;font-size: 1rem;text-align: center;background: #750ee7; }
+.active_register #prompt { height: 3.4rem;width: max-content;background: rgba(0,0,0,0.5);text-align: center;line-height: 3.4rem;font-size: 1.2rem;color: #fff;position: fixed;top: 50%;left: 50%;padding: 0 1rem;transform: translate(-50%,-50%);border-radius: 0.4rem; }

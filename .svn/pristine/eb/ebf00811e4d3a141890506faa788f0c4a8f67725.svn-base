@@ -1,0 +1,24 @@
+.agreement{
+    width: 89%;
+    line-height: 3rem;
+    padding: 3rem 2rem 0 2rem;
+    font-size:1.2rem;
+}
+.agreement h2{
+    font-weight: bold;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+.agreement .introduce{
+    text-align: left;
+    text-indent:2em;
+}
+.agreement .circle{
+    margin-bottom: 2rem;
+}
+.agreement .circle li{ 
+    list-style-position:inside!important;
+    list-style: decimal;
+    text-align: left;
+    margin-top: 1rem;
+} 

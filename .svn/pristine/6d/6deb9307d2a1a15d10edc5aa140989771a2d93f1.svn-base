@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="format-detection" content="telephone=no" />
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+		<meta name="apple-touch-fullscreen" content="yes">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+		<meta name="format-detection" content="telephone=no">
+		<link rel="shortcut icon" type="image/x-icon" href="../../favicon.ico"/>
+		<link rel="stylesheet" type="text/css" href="static/css/main.css"/>
+		<title>集财理财官网-国企中宇本鑫旗下控股理财平台</title>
+	</head>
+	<body>
+		<div class="header">
+			<div class="logo clearfix">
+				<img class="fl" src="static/img/logo-a.png"/>
+				<a class="fr" href="http://wap.fengyelicai.com/#/generalize_jrtt">注册</a>
+			</div>
+		</div>
+		<div class="container">
+			<div class="page-2">
+				<img src="static/img/banner_mobile.png"/>
+			</div>
+			<div class="page-1">
+				<h1>集财理财</h1>
+				<p class="p1">集财是一家国企供应链金融智能投资理财平台，为用户提供定期理财、活期理财产品，
+未来还将开拓更多元化的产品线，建立一站式投资理财服务平台。</p>
+				<ul class="clearfix">
+					<li class="fl" style="border-bottom: 1px solid #e5e5e5;border-right: 1px solid #e5e5e5;">
+						<img src="static/img/icon_1.png"/>
+						<p>选择产品</p>
+						<span>活期定期任意选</span>
+					</li>
+					<li class="fl" style="border-bottom: 1px solid #e5e5e5;">
+						<img src="static/img/icon_2.png"/>
+						<p>完成投资</p>
+						<span>定制私人投资计划</span>
+					</li>
+					<li class="fl" style="border-right: 1px solid #e5e5e5;">
+						<img src="static/img/icon_3.png"/>
+						<p>本息到期</p>
+						<span>次日收回投资本息</span>
+					</li>
+					<li class="fl">
+						<img src="static/img/icon_4.png"/>
+						<p>收益提现</p>
+						<span>快速到账0手续费</span>
+					</li>
+				</ul>
+			</div>
+			<!--<div class="page-2">
+				<img src="static/img/banner.png"/>
+			</div>-->
+			<div class="page-3">
+				<h1>安全保障</h1>
+				<div class="safe-1"><img src="static/img/icon_5.png"/>国企背景</div>
+				<p>全资控股大股东中宇本鑫实业属国资金融背景，实力雄厚，注册资金人民币五亿元，曾联合多家实力央企在政府牵头的PPP项目，并为多个大型合作项目解决了融资需求。</p>
+				<div class="safe-2"><img src="static/img/icon_6.png"/>第三方支付</div>
+				<p>用户通过充值与提现形成的每一笔支付，都将通过第三方支付平台完成，并对资金流转过程进行监管，平台不触及用户资金，仅提供信息中介及清算服务。</p>
+				<div class="safe-3"><img src="static/img/icon_7.png"/>供应链金融</div>
+				<p>优质资产端，项目资金主要用于国有企业、国际大型贸易企业、准上市公司采购大宗商品，项目经过集财理财专业风控团队审核，实现货权全程控制，对货权和资金使用完全掌控，极大降低项目风险。</p>
+				<div class="safe-4"><img src="static/img/icon_8.png"/>银行级风控</div>
+				<p>资金去向透明可追踪，借款人真实且为大型企业，集财理财风控团队对借款方的资产规模与负债结构进行审核，做到物权与资金用途双重掌控。每笔交易自动生成具有法律效力的电子合同，保障用户资金安全。</p>
+			</div>
+			<div class="page-4">
+				<h1>关于集财理财</h1>
+				<p>集财理财是杭州卓韬网络科技有限公司旗下，专注于国企供应链金融智能投资理财平台。2017年6月正式运营上线，集财理财联合各类优质金融机构，深度挖掘优质金融资产资源，致力于为用户提供优质多元的投资理财产品和专业定制化的服务，打造更契合用户需求的财富增值和管理方案，为用户和社会创造更多价值，为社会营造诚信健康的金融环境，合力推动普惠金融发展。集财理财为用户提供定期理财、活期理财产品，未来还将开拓更多元化的产品线，建立一站式投资理财服务平台。集财理财旗下专业化的金融研究中心，洞察市场发展脉搏，有效管理风险，以保护用户的信息和资产安全为己任。</p>
+			</div>
+			<div class="page-5">
+				<h1>股东背景简介</h1>
+				<p>全资控股大股东中宇本鑫实业属国资金融背景，注册资金人民币五亿元，主营业务涉及广泛。近年来，中宇本鑫资本起势力迅猛，联合多家实力央企在政府牵头的PPP项目中通力协调并整合积累了大量优质资源，并为多个大型合作项目解决了融资需求。中宇本鑫实业下属多家全资子公司，响应加快中西部发展的号召，积极拓展西北西南等潜力发展区域的资源，部署重点发展战略地，并凭借多年的资本资源积累，夯实了以江浙沪沿海一带为重心的运营扩张思路。杭州积旌作为中宇本鑫实业下属的全资子公司，致力于大中型企业大宗贸易供应链服务。团队核心成员精英荟萃，多年中融信托供职经验，银行管理从业经验丰富，领先于行业从事互联网金融产品的研发运营管理，曾组建多个运行优良的互联网平台项目，拥有雄厚的产品渠道整合能力，依托国资金融背景和核心卓越的管理，持续有效高速发展。</p>
+			</div>
+		</div>
+		<div class="footer">
+			<div class="footer-top clearfix">
+				<div class="fl-left fl">
+					<p><span class="icon-dw"></span>公司地址：浙江省杭州市西湖区文一西路59号三层324室</p>
+					<p><span class="icon-lx"></span>联系方式：4008251755</p>
+				</div>
+				<div class="fl-right fr">
+					<div style="margin-top: 0.5rem; position: relative;">
+				        <a target="_blank" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=33010602008450" style="position:absolute;top:2rem;left:-15rem;display:block;text-decoration:none;height:2rem;line-height:2rem;"><img src="static/img/bei_icon.png" style="display: inline-block;width: 1rem;height: 1rem;margin-bottom: 0.3rem;"/><p style="height:2rem;line-height:2rem;margin: 0 0 0 0.5rem; color:#939393;font-size: 0.7rem;display: inline-block;">浙公网安备 33010602008450号</p></a>
+				        <a target="_blank" style="display:block;height: 0;padding-top: 2rem;" id="_pingansec_bottomimagelarge_p2p" href="http://si.trustutn.org/info?sn=138170725000594912564&certType=4"><img style="margin-bottom: 3rem;" src="http://v.trustutn.org/images/cert/p2p_official_large.jpg"/></a>
+				    </div>
+				</div>
+			</div>
+			<div class="friend-link">
+				<ul class="clearfix">
+					<li>友情链接：</li>
+					<li><a target="_blank" href="http://www.p2peye.com/">网贷天眼</a></li>
+					<li><a target="_blank" href="http://www.wangdaizhijia.com/">网贷之家</a></li>
+					<li><a target="_blank" href="http://www.wodai.com">我贷网</a></li>
+					<li><a target="_blank" href="http://www.p2p110.com">网贷110</a></li><br />
+					<li style="margin-left: 4rem;"><a target="_blank" href="http://www.wangdaitiandi.com/">网贷天地</a></li>
+					<li><a target="_blank" href="http://www.wdzx.com/">网贷中心</a></li>
+					<li><a target="_blank" href="http://www.wdlm.cn">网贷联盟</a></li>
+					<li><a target="_blank" href="http://www.erongtu.com/">融途网</a></li>
+				</ul>
+			</div>
+			<div class="footer-bottom">
+				<p style="color: #fff;margin-top: 1rem;">© Copyright2015-2016&nbsp;浙ICP备17026421号&nbsp;杭州卓韬网络科技有限公司&nbsp;版权所有</p>
+				<p style="color: #789;margin-top: 1rem;">集财理财温馨提醒：理财有风险，投资需谨慎</p>
+			</div>
+		</div>
+	</body>
+	<script src="static/js/reset.js" type="text/javascript" charset="utf-8"></script>
+</html>

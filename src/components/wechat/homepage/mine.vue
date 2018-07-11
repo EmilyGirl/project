@@ -1,0 +1,411 @@
+<template>
+	<div id="mine" class="mine">
+		<section id="ml_block1" class="ml_block ml_block1">
+			<div class="ml_block_header">
+				<a :href="'tel:' + companyTel">
+					<div class="set_btn" id="set_btn">
+						<img src="../../../assets/img/wechat/mine/service_icon.png" />
+					</div>
+				</a>
+			</div>
+			<div class="ml_block_body">
+				<router-link :to="{
+					name:'personal_data',
+					}" class="a1">
+					<div id="user_icon" class="user_icon">
+						<img src="../../../assets/img/wechat/mine/hit.png" alt="头像" />
+					</div>
+				
+				<div class="account_block">
+					<p id="account" class="account">{{phoneNo}}</p>
+					<p id="wszl" class="wszl">集财与您朝夕相伴</p>
+				</div>
+				</router-link>
+				<div class="sywarp">
+			    
+			    <div class="ml_block_half">
+					<p>今日收益(元)</p>
+					<p class="wait"  v-defaultZero:money = "(obj.dayProfit /100).toFixed(2)"   id="wait"></p>
+				</div>
+				<div class="ml_block_half ">
+					<p>待结算收益(元)</p>
+					<p class="sum" id="sum"  v-defaultZero:money = "(obj.wfsy/100).toFixed(2)"></p>
+				</div>
+				<div class="ml_block_half">
+					<p>已结算收益(元)</p>
+					<!-- <p>累计收益(元)</p> -->
+					<p class="wait"  v-defaultZero:money = "(obj.allProfit/100).toFixed(2)"   id="wait"></p>
+				</div>
+				
+			</div>
+			
+			</div>
+		</section>
+		<section id="ml_block2" class="ml_block ml_block2">
+			<ul>
+				<li class="ml_block_list" >
+					<div class="name">
+						<p>可用余额（元）</p>
+						<p class="keyong"  v-defaultZero:money = "(obj.leftMoney/100).toFixed(2)"></p>
+					</div>
+					<div>
+						<button class="cz btn" v-if='obj.isHistory=="0"' @click="recharge">充值</button>
+						<button class="tx btn" @click="withdraw">提现</button>
+					</div>
+				</li>
+				<li class="ml_block_list" @click="zichan">
+					<div class="name">
+						<img src="../../../assets/img/wechat/mine/capital_details.png" class="list_img1" />资产明细
+					</div>
+					<div>
+						<span class="zichan"  v-defaultZero:money = "(obj.totalMoney/100).toFixed(2)"></span>元<img src="../../../assets/img/wechat/mine/right.png" />
+					</div>
+				</li>
+				<li class="ml_block_list" @click="chujie">
+					<div class="name">
+						<img src="../../../assets/img/wechat/mine/shape.png" />我的出借
+					</div>
+					<div>
+						<span class="zichan"  v-defaultZero = "obj.investorCount"></span>项
+						<img src="../../../assets/img/wechat/mine/right.png" />
+					</div>
+				</li>
+				<li class="ml_block_list" @click="quanbao">
+					<div class="name">
+						<img src="../../../assets/img/wechat/mine/card.png" />我的券包
+					</div>
+					<div>
+						<span class="zichan" v-defaultZero = "obj.couponcounts"></span>张<img src="../../../assets/img/wechat/mine/right.png" />
+					</div>
+				</li>
+				<li class="ml_block_list" @click="bankcard">
+					<div class="name">
+						<img src="../../../assets/img/wechat/mine/bank_card.png" />银行卡
+					</div>
+					<div>
+						{{ list&&list.bankAccount? '尾号   '+list.bankAccount.slice(-4,22) : '未绑定'  }}<img src="../../../assets/img/wechat/mine/right.png" />
+					
+					</div>
+				</li>
+			</ul>
+		</section>
+		<section id="ml_block3" class="ml_block ml_block3">
+			<ul>
+				<li class="ml_block_list" @click="msgList">
+					<div class="name">
+						<img src="../../../assets/img/wechat/mine/icon_my_massage.png" />我的消息
+					</div>
+					<div>
+						查看<img src="../../../assets/img/wechat/mine/right.png" />
+					</div>
+				</li>
+				<li class="ml_block_list" @click="intergate">
+					<div class="name">
+						<img src="../../../assets/img/wechat/mine/jifenicon.png" />我的积分
+					</div>
+					<div>
+						查看<img src="../../../assets/img/wechat/mine/right.png" />
+					</div>
+				</li>
+				<li class="ml_block_list" @click="about">
+					<div class="name">
+						<img src="../../../assets/img/wechat/mine/about_jc.png" />关于集财
+					</div>
+					<div>
+						<img src="../../../assets/img/wechat/mine/right.png" />
+					</div>
+				</li>
+				<li class="ml_block_list" @click="share">
+					<div class="name">
+						<img src="../../../assets/img/wechat/mine/share.png" />分享给好友
+					</div>
+					<div>
+						<img src="../../../assets/img/wechat/mine/right.png" />
+					</div>
+				</li>
+				<li class="ml_block_list" @click="help">
+					<div class="name">
+						<img src="../../../assets/img/wechat/mine/ask_icon.png" />帮助中心
+					</div>
+					<div>
+						<img src="../../../assets/img/wechat/mine/right.png" />
+					</div>
+				</li>
+				<li class="ml_block_list" @click="cus_service">
+					<div class="name">
+						<img src="../../../assets/img/wechat/mine/service_icon.png" />联系客服
+					</div>
+					<div>
+						<img src="../../../assets/img/wechat/mine/right.png" />
+					</div>
+				</li>
+			</ul>
+		</section>
+
+		<button class="quit_btn" @click="quit">退出登录</button>
+		<div class="invit-close" v-if="close">{{ message }}</div>
+		<div class="shade" v-if="shade" @click="shade=false"><img src="../../../assets/img/wechat/mine/wx_share.png" /></div>
+		<div class="shade" v-if="msgSwitch">
+			<div class="alerts">
+				<div class="msg_title">{{msg.title}}</div>
+				<div class="msg_body">{{msg.body}}</div>
+				<div class="msg_func">
+					<button @click="msgCancel">{{msg.cancel}}</button>
+					<button @click="msgAffirm">{{msg.affirm}}</button>
+				</div>
+			</div>
+		</div>
+		<ul class="tab clearfix">
+			<li v-for="(item, index) in items" :class="[commonClass,item.active ? activeClass : '']" v-on:click="navClickEvent(items,index)">
+				<a href="javascript:;"><span></span>{{item.text}}</a>
+			</li>
+		</ul>
+		<vue-public-alert></vue-public-alert>
+	</div>
+</template>
+
+<script>
+	import reset_rem from "../../../assets/js/wechat/reset_rem.js";
+	import { usernameKey, authKey, authName, usernameName } from '@/config/config.js';
+	import vuePublicAlert from "../../../assets/js/wechat/public-alert.js";
+	export default {
+		name: 'mine',
+		data() {
+			return {
+				list: [],
+				message: '',
+				close: false,
+				isHistory: true,
+				leftMoney: '',
+				companyTel: '',
+				isPayPwd: '',
+				isBindBank: false,
+				user: '',
+				obj: {},
+				shade: false,
+
+				phoneNo: '',
+				wfsy: '',
+				wfsy: '',
+				msgSwitch: false,
+				msg: {
+					title: '提示',
+					body: '您尚未绑定银行卡绑定完成后即可充值出借',
+					cancel: '取消',
+					affirm: '前往绑卡'
+				},
+				commonClass: 'nav-item',
+				activeClass: 'active',
+				items: [{
+						text: '出借',
+						active: false
+					},
+					{
+						text: '我的',
+						active: true
+					},
+				],
+
+			}
+		},
+		created: function() {
+			var _this = this;
+			_this.phoneNo = this.getxxx();
+			_this.$http.post('/Product/User/showMyAccountNew', {
+					parameters: '{}'
+				})
+				.then(function(res) {
+					if(res.data.end == 'ok') {
+						_this.obj = res.data.obj;
+						if(res.data.obj.isBindBank == "1") {
+							_this.list = res.data.list[0];
+							// console.log( res.data.list[0])
+							_this.user = _this.list.name;
+							_this.isBindBank = true;
+
+						} else {
+							_this.isBindBank = false;
+
+						}
+
+						//console.log(_this.user);
+					} else if(res.data.end == 'noLogin') {
+						_this.message = res.data.message;
+						_this.close = true;
+						setTimeout(function() {
+							_this.close = false;
+							// _this.start();
+						}, 1000);
+					}
+				})
+				.catch(function(err) {
+					console.log(err)
+				});
+
+			//huoqu tel
+			_this.$http.post('/contactInformation/getContactInformation', {
+					parameters: '{}'
+				})
+				.then(function(res) {
+					if(res.data.end == 'ok') {
+
+						var tel = '';
+						var tellist = res.data.data.list;
+						for(var i = 0; i < tellist.length; i++) {
+							if(tellist[i].type == 'tel') {
+								tel = tellist[i].subtitle
+							}
+						}
+						_this.companyTel = tel;
+					}
+				})
+				.catch(function(err) {
+					console.log(err)
+				})
+		},
+		methods: {
+			getxxx() {
+				if(this.$getCookie(usernameName)) {
+					return this.$decryptByDES(this.$getCookie(usernameName), this.$uncompile(usernameKey))
+				}
+			},
+			recharge() {
+				if(this.isBindBank) {
+					this.$router.push({
+						path: '/wechat/subpage/wx_recharge',
+					});
+				} else {
+					this.msgSwitch=true;
+				}
+			},
+			withdraw() {
+				if(this.isBindBank) {
+					if(this.obj.isPayPwd!="yes"){
+						this.msg.body="您尚未设置交易密码，请设置后操作";
+						this.msg.affirm="前往设置";
+						this.msgSwitch=true;
+					}else{
+						this.$router.push({
+							path: '/wechat/subpage/withdraw',
+						});
+					}
+					
+				} else {
+					this.msgSwitch=true;
+				}
+			},
+			msgCancel() {
+				this.msgSwitch=false;
+			},
+			msgAffirm() {
+				if(this.isBindBank) {
+					this.$router.push({
+						path: '/wechat/subpage/personal_data',
+					});
+				} else {
+					this.$router.push({
+						path: '/wechat/subpage/bind_bank',
+					});
+				}
+			},
+			zichan() {
+				this.$router.push({
+					path: '/wechat/subpage/reserve_balance',
+
+				});
+			},
+			chujie() {
+				this.$router.push({
+					path: '/wechat/subpage/zeek_rewards',
+
+				});
+			},
+			quanbao() {
+				this.$router.push({
+					path: '/wechat/subpage/money_wrapped',
+
+				});
+			},
+			msgList(){
+				this.$router.push({
+					path: '/app_terminal/message_list',
+
+				});
+			},
+			about() {
+				this.$router.push({
+					path: '/app_terminal/jc_about',
+
+				});
+			},
+			intergate(){
+				this.$router.push({
+					path: '/activity/intergate',
+
+				});
+			},
+			share() {
+				//alert('点击微信右上角图标分享');
+				this.shade = true;
+				// this.$router.push({
+				// 	path: '/activity/invite',
+				// });
+				// location.href = "/#/activity/invite"
+			},
+			help() {
+				this.$router.push({
+					path: '/app_terminal/help_center',
+				});
+			},
+			cus_service() {
+				this.$router.push({
+					path: '/wechat/subpage/customer_service',
+
+				});
+			},
+			bankcard() {
+				if(this.obj.isBindBank == "1") {
+					this.$router.push({
+						path: '/wechat/subpage/my_bankcard',
+					});
+				} else {
+					this.$router.push({
+						path: '/wechat/subpage/bind_bank',
+					});
+				}
+			},
+			quit() {
+				this.$delCookie(authName);
+				this.$router.push({
+					path: 'login',
+				});
+			},
+			navClickEvent: function(items, index) {
+				switch(index) {
+					case 0:
+						this.$router.push({
+							path: '/wechat/subpage/product'
+						})
+						break;
+					case 1:
+						this.$router.push({
+							path: '/wechat/homepage/mine'
+						})
+						break;
+				}
+			},
+
+		}
+	}
+</script>
+
+<style scoped>
+	@import url("../../../assets/css/wechat/reset_rem.css");
+	@import url("../../../assets/css/wechat/layout.css");
+	@import url("../../../assets/css/wechat/mine.css");
+	.sywarp{
+			display: flex;
+		    justify-content: space-between;
+		    width: 100%;
+	}
+</style>

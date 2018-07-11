@@ -1,0 +1,8 @@
+.success { text-align: center; }
+.success img { width: 15.4rem;height: 15.4rem;margin-top: 6.8rem; }
+.ding { font-size: 2.4rem;line-height: 3.4rem;text-align: center;color: #000;margin: 1.5rem 0 0.75rem; }
+.chu { font-size: 1.8rem;color: #666;line-height: 2.5rem;margin-bottom: 2.7rem; }
+.success_btn { width: 79%;margin: 0 auto; }
+.success_btn span { display: inline-block;width: 13.2rem;height: 4rem;text-align: center;line-height: 4rem;font-size: 1.6rem;border-radius: 0.4rem; }
+.btn-left { border: 1px solid #2772FF;color: #2772FF; }
+.btn-right { color: #fff;background: #2772FF; }

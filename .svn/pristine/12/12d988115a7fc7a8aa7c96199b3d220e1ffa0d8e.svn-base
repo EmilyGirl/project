@@ -1,0 +1,353 @@
+/**{
+	font-size: 1.5rem;
+	line-height: 1.5rem;
+}*/
+
+.mine {
+    height: 92vh;
+    overflow: hidden;
+    overflow-y: scroll;
+}
+
+.mine * {
+    box-sizing: border-box;
+}
+
+.mine .user_icon {
+    width: 7.5rem;
+    height: 7.5rem;
+    border-radius: 3.8rem;
+    overflow: hidden;
+}
+
+.mine .user_icon img {
+    width: 100%;
+    height: 100%;
+}
+
+.mine .set_btn {
+    width: 100%;
+    text-align: right;
+    padding: 1.13rem 0 .3rem 0;
+}
+
+.mine .set_btn img {
+    width: 2rem;
+}
+
+.mine .user_msg {
+    margin-bottom: 2rem;
+}
+
+.mine .a1 {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-content: center;
+}
+
+.mine .account_block {
+    display: inline-block;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    padding-left: 2.5rem;
+}
+
+.mine .account,
+.mine .wszl {
+    width: 100%;
+}
+
+.mine .account {
+    color: #666666;
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+}
+
+.mine .wszl {
+    width: initial;
+    padding: .2rem .6rem;
+    border: 1px solid #2772FF;
+    color: #2772FF;
+    border-radius: 8rem;
+    font-size: 1.1rem;
+}
+
+.mine .ml_block_half {
+    width: initial;
+    margin-top: 3.35rem;
+}
+
+.mine .ml_block_half>p {
+    color: #666666;
+    text-align: center;
+    width: 100%;
+    font-size: 1.5rem;
+    line-height: 2rem;
+}
+
+.mine .left p {
+    text-align: left;
+}
+
+.mine .left p:last-of-type {
+    padding-left: 2.35rem;
+}
+
+.reserve_balance .name,
+.personal .name,
+.mine .name {
+    line-height: 2rem;
+}
+
+.reserve_balance .name img,
+.personal .name img,
+.mine .name img {
+    width: 1.9rem;
+    margin-right: 1rem;
+}
+
+.reserve_balance .name .list_img1,
+.personal .name .list_img1,
+.mine .name .list_img1 {
+    /* width: 1.6rem;
+	margin-right: 1.2rem; */
+}
+
+.reserve_balance .ml_block_list,
+.personal .ml_block_list,
+.mine .ml_block_list {
+    color: #555555;
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+}
+
+.mine .ml_block_list:first-of-type>div:last-of-type {
+    padding-top: .3rem;
+}
+
+.reserve_balance .ml_block_list>div:last-of-type img,
+.personal .ml_block_list>div:last-of-type img,
+.mine .ml_block_list>div:last-of-type img {
+    width: .6rem;
+    margin-left: .8rem;
+    margin-right: .3rem;
+}
+
+.mine .btn {
+    width: 6.4rem;
+    height: 3rem;
+    border-radius: .5rem;
+    outline: none;
+    border: none;
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+}
+
+.mine .cz {
+    margin-right: .45rem;
+    background-color: #2772FF;
+    color: white;
+}
+
+.mine .tx {
+    border: 1px solid #2772FF;
+    background-color: #FFFFFF;
+    color: #2772FF;
+}
+
+.mine .quit_btn {
+    width: 80%;
+    padding: .8rem;
+    display: block;
+    margin: 2.6rem auto 5rem auto;
+    border: none;
+    outline: none;
+    background: #2772FF;
+    color: #FFFFFF;
+    border-radius: .5rem;
+    letter-spacing: .2rem;
+    font-size: 1.4rem;
+    line-height: 1.4rem;
+}
+
+.mine .invit-close,
+.mine .sign-close,
+.mine .welfare-close,
+.personal .invit-close,
+.personal .sign-close,
+.personal .welfare-close {
+    width: 70%;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-left: -35%;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.8);
+    color: #fff;
+    padding: 1.4rem 0;
+    z-index: 100000;
+    border-radius: 3rem;
+    font-size: 1.5rem;
+}
+
+.mine .fade-enter-active,
+.mine .fade-leave-active,
+.personal .fade-enter-active,
+.personal .fade-leave-active {
+    transition: opacity .3s;
+}
+
+.mine .fade-enter,
+.mine .fade-leave-to,
+.personal .fade-enter,
+.personal .fade-leave-to
+/* .fade-leave-active in below version 2.1.8 */
+
+{
+    opacity: 0
+}
+
+.mine .shade {
+    width: 100%;
+    height: 100%;
+    padding: 0 2.5rem;
+    position: absolute;
+    top: 0;
+    background-color: rgba(0, 0, 0, .6);
+    z-index: 1000;
+}
+
+.mine .alerts {
+    width: 70%;
+    font-size: 1.5rem;
+    line-height: 2rem;
+    text-align: center;
+    position: absolute;
+    top: 36%;
+    left: 50%;
+    margin-left: -35%;
+    background-color: #FFFFFF;
+    padding: 1.4rem 1.6rem 1.8rem 1.6rem;
+    border-radius: .8rem;
+}
+
+.mine .alerts .msg_title {
+    font-size: 1.6rem;
+}
+
+.mine .alerts .msg_body {
+    margin: 1.5rem 0;
+}
+
+.mine .alerts .msg_func {
+    display: flex;
+    justify-content: space-around;
+}
+
+.mine .alerts .msg_func button {
+    font-size: 1.4rem;
+    padding: .6rem 1rem;
+    border-radius: .5rem;
+    background-color: #2772FF;
+    color: #FFFFFF;
+}
+
+.mine .alerts .msg_func button:first-of-type {
+    background-color: #989898;
+}
+
+
+/*home*/
+
+.mine .tab {
+    width: 100%;
+    padding: 1.03rem 0 0.78rem 0;
+    background: #fff;
+    position: absolute;
+    font-size: 1.2rem;
+    z-index: 1000;
+    bottom: 0;
+    border-top: .1rem solid #E1E1E1;
+}
+
+.mine .tab li {
+    width: 50%;
+    float: left;
+    font-size: .9em;
+    text-align: center;
+}
+
+.mine .tab li a {
+    color: #999;
+}
+
+.mine .tab li.cur a {
+    color: #333;
+}
+
+.mine .tab .active.nav-item:nth-child(1) span {
+    width: 1.845rem;
+    height: 1.74rem;
+    display: block;
+    background: url(../../img/wechat/shouye/cmoney.png) no-repeat;
+    background-size: 100% 100%;
+    margin: 0 auto .375rem auto;
+}
+
+.mine .tab .nav-item:nth-child(1) span {
+    width: 1.845rem;
+    height: 1.74rem;
+    display: block;
+    background: url(../../img/wechat/shouye/kmoney.png) no-repeat;
+    background-size: 100% 100%;
+    margin: 0 auto .375rem auto;
+}
+
+.mine .tab .active.nav-item:nth-child(2) span {
+    width: 1.845rem;
+    height: 1.74rem;
+    display: block;
+    background: url(../../img/wechat/shouye/cmine.png) no-repeat;
+    background-size: 100% 100%;
+    margin: 0 auto .375rem auto;
+}
+
+.mine .tab .nav-item:nth-child(2) span {
+    width: 1.845rem;
+    height: 1.74rem;
+    display: block;
+    background: url(../../img/wechat/shouye/mine.png)/* -50px -5px / 200px 100px*/
+    no-repeat;
+    background-size: 100% 100%;
+    margin: 0 auto .375rem auto;
+}
+
+
+/*.nav-item*/
+
+.mine .tab .active a {
+    color: #2772FF;
+}
+
+
+/*.tab .active a span {
+    background-position-y: -55px;
+}*/
+
+.mine .wapper {
+    width: 100%;
+    height: 100%;
+    background: #eaeaea;
+    position: absolute;
+}
+
+.mine .clearfix::after {
+    content: "";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden
+}

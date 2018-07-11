@@ -1,0 +1,260 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
+.zeek{
+    overflow: hidden;
+    /* z-index: 1; */
+}
+.clear{
+    clear: both;
+}
+.wrapped_title{
+    width: 100%;
+    height: 4.5rem;
+    background: #FFFFFF;
+    border-top: 1px solid #EBEBEB;
+    border-bottom:1px solid #EBEBEB;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 11;
+}
+.wrapped_box{
+    margin-top: 6rem;
+    /* z-index: 11; */
+}
+.wrapped_title li{
+    float: left;
+    width: 50%;
+    height: 4.5rem;
+    text-align: center;
+    line-height: 4.5rem;
+    font-size: 1.5rem;
+    color: #000000;
+}
+.wrap_li{
+    color: #2772FF!important;
+    border-bottom: 0.2rem solid #2772FF;
+}
+.zeek_rewards{
+    width: 37.5rem;
+    height: auto;
+    margin: 1rem 0;
+    /* padding: 0.8rem 0 0 0; */
+    background: #fff;
+    /* z-index: 111; */
+}
+.zeek_neirong{
+    padding-left: 3.8rem;
+    /* z-index: 1111; */
+}
+.zeek_title{
+    width:33.7rem;
+    height: 3.4rem;
+    line-height: 3.4rem;
+    padding-right: 2rem;
+    border-bottom: 0.05rem solid #e1e1e1;
+}
+.zeek_title1{
+    color: #333;
+    font-size: 1.4rem;
+    float: left;
+    /* max-width: 3rem; */
+}
+.zeek_title2{
+    color: #ffffff;
+    font-size: 1.2rem;
+    float: right;
+    background: #b8b8b8;
+    width: auto;
+    padding: 0.5rem;
+    text-align: center;
+    line-height: 1rem;
+    height: 2rem;
+    margin-top: 0.5rem;
+    border-radius: 0.4rem;
+    margin-top: 0.5rem;
+}
+.zeek_content{
+    width:35.7rem;
+    position: relative;
+    /* z-index: 11111!important; */
+    /* padding-right: 3.05rem; */
+   
+}
+.green_down{
+    width: 1.3rem;
+    height: 1.3rem;
+    margin-right: 1.07rem;
+    margin-top: 1.85rem;
+    float: left;
+    /* z-index: 111111!important; */
+    position: relative
+}
+.green_up{
+    width: 1.3rem;
+    height: 2.6rem;
+    margin-right: 1.07rem;
+    margin-top: 0.2rem;
+    float: left;
+    position: relative;
+    
+}
+.zeek_list{
+    float: left;
+    width: 31.2rem;
+    height: auto;
+    padding: 1rem 0;
+    font-size: 1.2rem;
+    border-bottom: 0.05rem solid #e1e1e1;
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+}
+.clear{
+    clear: both;
+}
+.time{
+    font-size:1.2rem;
+    color: #808080;
+    display: inline-block;
+    max-width: 6.7rem;
+
+   
+    /* vertical-align: middle; */
+}
+.state{
+    font-size:1.2rem;
+    color: #808080;
+    display: inline-block;
+    margin-left: 5rem;
+    max-width: 4rem;
+    /* margin-left: 3.4rem; */
+    /* vertical-align: middle; */
+}
+.zeek_money{
+    display: inline-block;
+    margin-left: 4rem;
+    /*margin-right: -2rem;*/
+    /* vertical-align: middle; */
+    /* margin-left: 7.4rem; */
+}
+.zeek_line{
+    width: 0.05rem;
+    height: 54%;
+    background: #C9C9C9;
+    position: absolute;
+    left: 0.6rem;
+    top: 3rem;
+    display: inline-block;
+}
+.zeek_circle{
+    width: 1.3rem;
+    height: 1.3rem;
+    background: #c9c9c9;
+    border-radius: 50%;
+    position: absolute;
+    left: 0rem;
+    top:103%;
+    z-index: 0!important;
+    display: inline-block;
+}
+.zeek_line{
+    width: 0.03rem;
+    height: 28%;
+    background: #43E98D;
+    position: absolute;
+    left: 0.65rem;
+    top: 3rem;
+    display: inline-block;
+} 
+.green_up1{
+    width: 1.3rem;
+    height: 1.3rem;
+    background: #c9c9c9;
+    border-radius: 50%;
+    position: absolute;
+    left: 0rem;
+    top:103%;
+    /* z-index: 111!important; */
+    display: inline-block;
+}
+.zeek_three{
+  height: auto;
+  position: relative;
+ 
+}
+.money{
+    font-size: 1.4rem;
+    color: #2772FF;
+}
+.red_pack{
+    font-size: 1.2rem;
+    color: #808080;
+    display: inline-block;
+    margin-top: 0.5rem;
+}
+.zeek_content:last-child .zeek_list{
+    border: none;
+}
+.line{
+    width: 37.45rem;
+    height:0.05rem;
+    background: #e1e1e1;
+    /* margin-top: 1rem; */
+}
+.contract{
+    width: 37.45rem;
+    height: 6rem;
+    padding: 1.4rem 1.9rem 1.6rem 1.9rem;
+}
+.contract1{
+    width: 12.65rem;
+    height: 3rem;
+    border: 0.1rem solid #e5e5e5;
+    text-align: center;
+    line-height: 3rem;
+    font-size: 1.2rem;
+    color: #808080;
+    float: left;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
+.contractLeft{
+    margin-left: 8.3rem;
+}
+.clearfloat:after{display:block;clear:both;content:"";visibility:hidden;height:0} 
+.clearfloat{zoom:1} 
+.contractImg{
+    width: 1.05rem;
+    height: 1.1rem;
+    margin-right: 0.75rem;
+}
+.null_go{
+    text-align: center;
+    margin-top: 8.6rem;
+}
+.null_zeek{
+    width: 19.25rem;
+    height: 11.95rem;
+}
+.null_go h3{
+    font-size: 1.8rem;
+    color: #000000;
+    margin-top: 1.5rem;
+}
+.null_go1{
+    width: 34.4rem;
+    height: 4.5rem;
+    background:  #2772FF;
+    font-size: 1.6rem;
+    color: #FFFFFF;
+    text-align: center;
+    line-height: 4.5rem;
+    margin: 0 auto;
+    margin-top: 2.7rem;
+    border-radius: 0.4rem;
+}

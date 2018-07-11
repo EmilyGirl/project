@@ -1,0 +1,11 @@
+.fu-content { background: #fff; }
+.alert-title,.fu-title { background: #fff;height: 5.1rem;font-size: 1.5rem;line-height: 5.1rem;padding-left: 1rem;border-bottom: 1px solid #979797;position: relative; }
+.fu-title { text-align: center; }
+.fu-title img { width: 1.5rem;height: 1.5rem;position: absolute;top: 1.8rem;right: 1.5rem; }
+.mode { background: #fff;height: auto; }
+.mode li { height: 9rem;border-bottom: 1px solid #999;margin-left: 1.5rem; }
+.mode li:last-child { border-bottom: 0; }
+.balance { width: 5.5rem;height: 5.5rem;margin-top: 1.75rem; }
+.fu-middle { margin-left: 1.5rem; }
+.yu-common { font-size: 1.6rem;color: #333;line-height: 2.3rem;margin-top: 2.1rem; }
+.money-common { font-size: 1.3rem;color: #999;line-height: 1.9rem;margin-top: 0.6rem; }

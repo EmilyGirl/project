@@ -1,0 +1,31 @@
+.dispose_img{
+width: 15.45rem;
+height: 15.45rem;
+margin-top: 6.75rem;
+
+}
+.dispose{
+    text-align: center
+}
+.chuli{
+    font-size: 2.4rem;
+   color: #000000;
+   margin-top: 1.5rem;
+}
+.information{
+    font-size: 1.4rem;
+    color: #666666;
+    margin-top: 2.25rem;
+}
+.null_go1{
+    width: 34.4rem;
+    height: 4.5rem;
+    background:  #2772FF;
+    font-size: 1.6rem;
+    color: #FFFFFF;
+    text-align: center;
+    line-height: 4.5rem;
+    margin: 0 auto;
+    margin-top: 2.7rem;
+    border-radius: 0.4rem;
+}

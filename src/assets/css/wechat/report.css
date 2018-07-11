@@ -1,0 +1,17 @@
+.page-container {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    /*background: red;*/
+    /* import VueFullpage from 'vue-fullpage'
+Vue.use(VueFullpage) */
+/* npm install vue-fullpage --save */
+   }
+   .report{
+   	 /*background: red;*/
+   	width: 37.5rem;
+   	height: 66.7rem;
+   	position: relative;
+   }

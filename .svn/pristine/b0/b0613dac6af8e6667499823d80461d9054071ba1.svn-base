@@ -1,0 +1,69 @@
+/*项目详情*/
+
+.rule-details {
+    width: 100%;
+    .preject ul {
+        background: #fff;
+    }
+    .preject .qixian {
+        margin-top: 1rem;
+    }
+    .qixian li {
+        border-bottom: 1px solid #E1E1E1;
+        padding: 1rem 1.5rem 1rem 0;
+        margin-left: 1.5rem;
+    }
+    .qixian li:last-child {
+        border: 0;
+    }
+    .qixian li .left-com {
+        font-size: 1.4rem;
+        color: #222;
+        line-height: 2rem;
+    }
+    .qixian li .right-com {
+        font-size: 1.2rem;
+        color: #555;
+        line-height: 2rem;
+    }
+    .liu-content {
+        padding: 0 1.5rem;
+        margin-top: 1rem;
+        background: #fff;
+    }
+    .liu-shu {
+        margin-bottom: 5rem;
+    }
+    .liu-shu li .liu-title {
+        font-size: 1.4rem;
+        color: #555555;
+        line-height: 2.1rem;
+    }
+    .liu-shu li .liu-title span {
+        display: inline-block;
+        width: 0.2rem;
+        height: 1.5rem;
+        background: #2772FF;
+        vertical-align: middle;
+        margin-right: 0.9rem;
+    }
+    .liu-shu li .liu-title {
+        padding: 1.2rem 0 0.7rem;
+        text-align: left;
+    }
+    .liu-shu li div,
+    .liu-shu li div p {
+        font-size: 1.4rem;
+        color: #555;
+        line-height: 3rem;
+        text-align: left;
+        width: 100%;
+    }
+    .liu-shu li .lyq_text {
+        word-wrap: break-word;
+        overflow: hidden;
+    }
+    .liu-shu li div p b {
+        font-weight: bold;
+    }
+}

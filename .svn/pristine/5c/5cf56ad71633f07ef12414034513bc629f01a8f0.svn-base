@@ -1,0 +1,46 @@
+@charset "utf-8";
+html,body,div,nav,header,footer,span,textarea,input,label,video,form,iframe,canvas,pre,p,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,figure,a,p,b,i,em,br,strong,img,sub,sup,tbody,table,tr,th,td,button,br{
+				margin:0; 
+				padding:0;
+				box-sizing:border-box;
+				-webkit-box-sizing:border-box;
+				-moz-box-sizing:border-box;
+			}
+/*ie下去框*/
+img{width: 100%;border:0 none;vertical-align:middle;display:inline-block;}
+input,textarea,img,button,select{outline:0px none;}
+em,i{font-style:normal;}
+a{ text-decoration: none; }
+body{font-family: "Microsoft YaHei","微软雅黑","Arial","simsum","sans-serif";
+font-size: 12px;}
+.bg-content { width: 100%;height: 100%;background: #f3f3f3;position: absolute; }
+/*textarea禁止拉伸*/
+textarea{word-break:break-all;word-wrap:break-word;resize:none;overflow:auto;padding:3px;line-height:1.6em;}
+br{border:0;height:0;display:block;clear:both;}
+h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal;}
+br{width:100%;height:0;}
+button{border:0 none;}
+
+html,body{width: 100%;height: 100%;}
+ul{list-style: none;}
+.nojilu{width: 100%;overflow: hidden;text-align: center;}
+.nojilu>img{display: block;}
+.nojilu .bgpic{width: 33%;margin: 20% auto 5%;}
+.nojilu p{width: 100%;line-height:20px ;font-size: 1.2rem;text-align: center;color: #898989;}
+.nojilu p span{color: #00a8f1;}
+.nojilu .toyaoq2{width: 44%;margin: 8% auto;}
+
+.jilu1{width: 100%;overflow: hidden;background: white;}
+.jilu1 p{width: 100%;height: 50px;line-height: 50px;font-size: 15px;
+color: #818181;padding: 0 4%;}
+.jilu1 span{width: 33.3%;float: left;}
+.jilu1 .you { text-align: right; }
+.jilu1 ul{border-top: 1px solid #e1e1e1;}
+.jilu1 ul li{font-size: 14px;line-height: 40px;color: #939393;padding: 0 4%;}
+.jilu1 ul li i{box-sizing: content-box;padding: 2px 4px;border-radius: 5px;}
+.more{color: #a1a1a1;font-size: 15px;line-height: 30px;height: 30px;
+width: 40%;margin: 3% auto 0;text-align: center;}
+
+.orange{color: #fd8026;}
+.gray{color: white;background: #dddddd;}
+.green{color: white;background: #62c22a;}

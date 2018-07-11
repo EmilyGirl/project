@@ -1,0 +1,96 @@
+
+/* CSS Document */
+* { color:#444; }
+html { font-size:62.5%; }
+body { font:12px/1.2em "microsoft yahei",Arial,Tahoma, Helvetica,\5b8b\4f53, sans-serif; }
+html,body,div,h1,h2,h3,h4,h5,h6,hr,p,blockquote,dl,dt,dd,ul,ol,li,pre,form,fieldset,object,code,em,span,var,legend,button,input,textarea,th,td,a,img,header,footer,nav,aside,audio,datalist,section { margin:0;padding:0;border:0;outline:0; }/*清除内外边距*/
+h1,h2,h3,h4,h5,h6 { font-weight:normal;font-size:100%; }/*设置默认字体*/
+:focus { outline:0; }
+ul,ol,ul li,ol li { list-style: none; }/*重置列表*/
+address,caption,cite,em,code,dfn,th,var { font-style:normal;font-weight:normal; }
+form label { cursor:pointer; }
+input,button,select,textarea { font-family:inherit;font-size:100%;outline:none; }
+textarea { resize:none }
+input { vertical-align:middle; }
+img { border:0;vertical-align:middle; }/*重置图片元素*/
+table { border-collapse:collapse;border-spacing: 0; }/*重置表格*/
+.l { float:left; }
+.r { float:right; }
+button,input[type="reset"],input[type="button"],input[type="submit"] { line-height:normal !important; }
+a { text-decoration:none;}
+a { color:#666;}
+/*a:hover { text-decoration:underline; }*/
+input { _filter:chroma(color=#000000); }
+/*--清除浮动
+------------------------------------------------------------------------------------------*/
+.clearfix:after { clear:both;content:".";display:block;font-size:0;height:0;visibility:hidden; }
+.clearfix:after { _zoom:1; }
+.overflow { overflow:hidden; _zoom:1; }
+.clear { clear:both; height:0;font-size:0; overflow:hidden; }
+.fl {float: left;}
+.fr { float: right; }
+/*新人注册*/
+.new-wrapper,.channel { position: relative; }
+.new-wrapper img,.channel img { width: 100%;margin-top: -1px; }
+.new-wrapper .lilv { position: absolute;width: 64%;left: 50%;margin-left: -32%;top: 15%;background: url(../img/jixing.png) no-repeat 0 0;background-size: 100% 100%;height: 40px;line-height: 40px;text-align: center;font-size: 23px;color: #E7514A; }
+.register { position: relative; }
+.register .new-inp,.register .new-kuang { position: absolute;top: 0;left: 0;width: 100%;margin-top: 1em; }
+.register .new-inp input { width: 100%;height: 2.5em;margin-bottom: 0.5em;border: none;font-size: 1em;background: #fffccf;text-indent: 0.75em; }
+.new-inp .common { width: 53.3%;margin: 0 auto; }
+.new-inp .yanz,.new-kuang .yanz { position: relative; }
+.new-inp .yanz button { position: absolute;right: 0;top: 0;height: 2.5em;width: 37.5%;font-size: 1em;color: #fff;background: #ff7f0e;border: none; }
+.register .new-inp .te { width: 26.1%;margin: 0.5em auto 0; }
+.register .new-inp .te button { border: none;background: none; }
+.new-footer { position: fixed;bottom: 0;left: 0;width: 100%;max-width: 640px; }
+.new-footer .new_btn { width: 26.7%;position: absolute;right: 1.8em;bottom: 1.2em; }
+.mask1,.mask2 { background: rgba(0,0,0,0.5);position: fixed;width: 100%;height: 100%;top: 0;left: 0;z-index: 1000; }
+.mask1-content,.mask2-content { text-align: center;margin-top: 18em;position: relative; }
+.mask1-content .success,.mask2-content .yizhu { width: 64%; }
+.mask1-content-new .success,.mask2-content-new .yizhu { width: 80%; }
+.mask1-content .cha,.mask2-content .cha1 { position: absolute;top: -6%;right: 14%;width: 1.7em;height: 1.7em; }
+.mask1-content-new .cha,.mask2-content-new .cha1 { top: 5%; }
+.mask1-content .new-down,.mask2-content .ok { position: absolute;bottom: 1em;left: 50%;width: 23.7%;margin-left: -11.8%; }
+.mask1-content-new .new-down-new,.mask2-content-new .ok-new { width: 52.6%;height: 45px;line-height: 45px;text-align: center;background: #FF6500;border-radius: 45px;font-size: 16px;color: #fff;margin-left: -26.8%; }
+.warn-prompt{width:80%;padding:3%;color:#fff;background:#000;opacity:0.8;position:fixed;top:45%;left:50%;margin-left: -40%;z-index:1111111;text-align:center;border-radius:3px;display: none;font-size: 1.2em;}
+/*新版注册*/
+#move .new_btn { width: 84%;position: absolute;bottom: 25px;left: 50%;margin-left: -42%; }
+.register .new-kuang { width: 80%;left: 50%;margin-left: -40%; }
+@media only screen and (min-width: 100px) and (max-width: 320px) {
+	.register .new-kuang{ top: 4%; }
+}
+@media only screen and (min-width: 360px) and (max-width: 700px) {
+	.register .new-kuang{ top: 6%; }
+}
+@media only screen and (min-width: 700px) {
+	.register .new-kuang{ top: 10%; }
+}
+.register .new-kuang .common,.zhujiang .zhujiang-kuang .common { position: relative; }
+.register .new-kuang .common input,.zhujiang .zhujiang-kuang .common input { width: 100%;height: 40px;border: 1px solid #999999;text-indent: 52px;margin-bottom: 10px; }
+.register .new-kuang .common button,.zhujiang .zhujiang-kuang .common button { width: 32%;position: absolute;top: 17.5%;right: 3.2%;padding: 4px 9px;background: #FE5815;border-radius: 78px;font-size: 12px;color: #fff; }
+.register .new-kuang .common .changeBg,.zhujiang .zhujiang-kuang .common .changeBg { background: #ccc; }
+.phone_icon { background: url(../img/phone_iocon.png) no-repeat scroll 5% center;background-size: 6% 67%; }
+.yanz_icon { background: url(../img/yanzheng_icon.png) no-repeat scroll 5% center;background-size: 7% 60%; }
+.mima_icon { background: url(../img/nima_icon.png) no-repeat scroll 5% center;background-size: 6% 55%; }
+.register .new-kuang .te button{ width: 48%;height: 40px;background: #FE631C;border-radius: 100px;opacity: 0.4;color: #fff;font-size: 16px;position: absolute;left: 50%;margin-left: -24%;bottom: -35%; } 
+.register .new-kuang .te .gaol,.zhujiang .zhujiang-kuang .te .gaol { opacity: 1; }
+/*渠道注册*/
+.channel { background-image: linear-gradient(-133deg, #FF8142 0%, #C8107C 100%); }
+.endtime p { color: #3D008E;font-size: 22px;text-align: center;line-height: 30px;margin-top: -20px;font-weight: bold; }
+.jiezhi { font-size: 16px;color: #FEEB56;letter-spacing: 5px;text-align: center;line-height: 23px; }
+.invest-content,#register-have { width: 88%;margin: 17px auto 0;background: #fff;border-radius: 6px;text-align: center; }
+.intitle { border-bottom: 10px solid #FFDE3B;margin: 0 auto;width: 80%;text-align: center;color: #F44041;font-size: 12px;line-height: 0; }
+.invest-content img,#register-have .zhuimg { width: 57%;display: block;margin: 0 auto 25px;padding-top: 29px; }
+.invest-content table { margin: 15px auto 24px;border-radius: 6px;width: 95%; }
+.invest-content table tr th,.invest-content table tr td { padding: 7px 0;font-size: 10px;color: #666; }
+.invest-content table tr:nth-child(odd) { background: #E5E5E5; }
+.invest-content table tr:nth-child(even) { background: #fff; }
+.invest-content table tr:first-child { background: #E14461; }
+.invest-content table tr:first-child th { color: #fff; }
+.invest-content table tr th:first-child { border-top-left-radius: 6px; }
+.invest-content table tr th:last-child { border-top-right-radius: 6px; }
+.invest-content table tr:last-child td:first-child { border-bottom-left-radius: 6px; }
+.invest-content table tr:last-child td:last-child { border-bottom-right-radius: 6px; }
+.invest-content .zhu { color: #000;font-size: 12px;line-height: 17px;width: 95%;margin: 0 auto;text-align: left;padding-bottom: 28px; }
+.zhujiang .zhujiang-kuang { width: 91%;margin: 0 auto;padding-bottom: 29px; }
+.zhujiang .zhujiang-kuang .te button { width: 48%;height: 40px;background: #FE631C;border-radius: 100px;opacity: 0.4;color: #fff;font-size: 16px; display: block;margin: 10px auto 0;}
+.channel .zhubottom { margin-top: 20px; }
